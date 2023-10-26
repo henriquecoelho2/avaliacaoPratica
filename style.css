@@ -1,5 +1,9 @@
+body{
+    background-color: blueviolet;
+}
 header {
     display: flex;
+    background-color: rgb(82, 82, 220);
 }
 .avatar img {
     border:10px solid black ;
