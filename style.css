@@ -1,4 +1,4 @@
-
+ /* estilização do cabeçalho */
 body{
     background-color: blueviolet;
     font-family: 'DM Serif Display', serif;
@@ -19,6 +19,7 @@ header {
 .nome{
     padding: 1%;
 }
+/* estilização da navbar */
 .navbar{
     display: flex;
     background-color: black;
@@ -33,6 +34,7 @@ a {
 a:hover{
     color: blue;
 }
+/* estilização dos parágrafos */
 p {
     border-radius: 15%;
     padding: 2%;
@@ -41,9 +43,14 @@ p {
 .lista{
     background-color: rgb(60, 60, 117);
 }
-.email{
-    padding: 1%;
-    padding-right: 30%;
+/* estilização do formulário */
+input[type="email"],
+textarea {
+    width: 70%;
+    padding: 12px;
+    margin: 1%;
+    box-sizing: border-box;
+    border-style:ridge;
 }
 .botao{
     font-family: 'DM Serif Display', serif;
